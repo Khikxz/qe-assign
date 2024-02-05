@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>OneQuantum Philippines</title>
+</head>
+
+<body class="body">
+    <!-----------------HEADER----------------->
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-link" href="index.html">
+                <img src="./images/logo.png" alt="logo" class="header-logo">
+                <p class="header-org">OneQuantum <span>Philippines</span></p>
+            </a>
+            <button type="button" class="header-burger js-open-menu js-close-menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <img src="./images/burger-menu.png" alt="menu" height="65" class="header-menu">
+            </button>
+            <input type="text" placeholder="Type keyword and enter" name="search" id="search">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link nav-current" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="mobile-nav js-menu-container">
+            <ul class="nav-list mobile-nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link nav-current mobile-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="contact.html">Contact</a>
+                </li>
+                <input type="text" placeholder="Type keyword and enter" name="search" id="mobile-search">
+            </ul>
+        </nav>
+    </header>
+
+    <!-----------------MAIN CONTENT----------------->
+    <main>
+        <div class="container">
+            <section class="services">
+                <h1 class="services-heading main-heading">Services</h1>
+                <div class="intro-container">
+                    <div class="directory">
+                        <ul class="directory-list">
+                            <li class="directory-item">
+                                <a href="#communities" class="directory-link">Communities</a>
+                            </li>
+                            <li class="directory-item">
+                                <a href="#mentoring" class="directory-link">Mentoring</a>
+                            </li>
+                            <li class="directory-item">
+                                <a href="#careers" class="directory-link">Careers</a>
+                            </li>
+                            <li class="directory-item">
+                                <a href="#skills" class="directory-link">Skills</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="intro">
+                        <h2 class="intro-heading">
+                            A supportive and authentic quantum community
+                        </h2>
+                        <img src="./images/OneQuantum-chapters.jpg" alt="map" class="intro-image">
+                        <p class="intro-paragraph">
+                            Our members are provided strong local networks in addition
+                            to a global community that provides support through events,
+                            mentoring, career opportunities and projects
+                        </p>
+                    </div>
+                </div>
+                <div class="services-focus">
+                    <h2 class="services-focus-heading">Our Focus</h2>
+                    <p class="services-focus-paragraph">
+                        We are driven to offer the most engaging communities,
+                        professional mentoring, career opportunities about heading
+                        skill development to support your quantum tech growth journey.
+                    </p>
+                </div>
+                <div class="services-communities services-container" id="communities">
+                    <h2 class="services-communities-heading">Communities</h2>
+                    <h3 class="services-communities-subheading">Members never miss out.</h3>
+                    <p class="services-communities-paragraph">
+                        Become a member to be sure to never miss an event and network year round
+                        from wherever you are.
+                    </p>
+                    <button class="accordion">Virtual & real-life events</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            We offer over 100 events yearly across 4 continents – both virtually and in person – to bring our communities together.
+                            Many of these events include renowned speakers, regional influencers or just great stories to inspire you on your journey.
+                        </p>
+                    </div>
+                    <button class="accordion">A virtual community</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            Paying members have access to our digital community to network, access valuable resources and content to help you along
+                            every step of your quantum tech career.
+                        </p>
+                    </div>
+                </div>
+                <div class="services-mentoring services-container" id="mentoring">
+                    <h2 class="services-mentoring-heading">Mentoring</h2>
+                    <h3 class="services-mentoring-subheading">
+                        The mentoring program is available to all of our members.
+                    </h3>
+                    <p class="services-mentoring-paragraph">
+                        Become a member to gain access to our free mentoring program.
+                    </p>
+                    <button class="accordion">Our mentoring program with Keysight Technologies</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            Over 400 mentees and almost 100 mentors have already joint our mentoring program sponsored
+                            by Keysight Technologies. Be it for basic quantum tech skills, developing your soft skills
+                            or advice on how to start a venture, our mentors are always happy to help.
+                        </p>
+                    </div>
+                </div>
+                <div class="services-careers services-container" id="careers">
+                    <h2 class="services-careers-heading">Careers</h2>
+                    <h3 class="services-careers-subheading">
+                        Make your next career move.
+                    </h3>
+                    <p class="services-careers-paragraph">
+                        Career resources and career events are available to all members
+                        as well as summit attendees.
+                    </p>
+                    <button class="accordion">Career resources</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            We are building one of the largest resume database of quantum tech talent globally, to be included
+                            simply submit your resume. We are also rolling out a job board for candidates.
+                        </p>
+                    </div>
+                    <button class="accordion">Career events</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            Most of our larger events and summits also have a career fair track during which leading quantum tech
+                            employers pitch the audience before you get a chance to meet them in dedicated breakout rooms.
+                        </p>
+                    </div>
+                </div>
+                <div class="services-skills services-container" id="skills">
+                    <h2 class="services-skills-heading">Skills</h2>
+                    <h3 class="services-skills-subheading">
+                        Members who make an impact.
+                    </h3>
+                    <p class="services-skills-paragraph">
+                        If you are looking to make a big impact locally then this is your opportunity
+                        to join an ambitious team of quantum enthusiasts.
+                    </p>
+                    <button class="accordion">Big projects at the local scale</button>
+                    <div class="panel">
+                        <p class="panel-content">
+                            Our ultimate goal is to foster local teams of quantum tech enthusiasts that run locally meaningful
+                            projects leveraging the power of quantum tech.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-----------------FOOTER----------------->
+    <footer class="footer">
+        <a class="footer-link" href="index.html">OneQuantum <span>Philippines</span></a>
+        <p class="footer-paragraph">Copyright &copy 2024</p>
+    </footer>
+    <script defer src="./js/qe-assign.js"></script>
+</body>
+
+</html>

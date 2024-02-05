@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>OneQuantum Philippines</title>
+</head>
+
+<body class="body">
+    <!-----------------HEADER----------------->
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-link" href="index.html">
+                <img src="./images/logo.png" alt="logo" class="header-logo">
+                <p class="header-org">OneQuantum <span>Philippines</span></p>
+            </a>
+            <button type="button" class="header-burger js-open-menu js-close-menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <img src="./images/burger-menu.png" alt="menu" height="65" class="header-menu">
+            </button>
+            <input type="text" placeholder="Type keyword and enter" name="search" id="search">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link nav-current" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="mobile-nav js-menu-container">
+            <ul class="nav-list mobile-nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link nav-current mobile-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="contact.html">Contact</a>
+                </li>
+                <input type="text" placeholder="Type keyword and enter" name="search" id="mobile-search">
+            </ul>
+        </nav>
+    </header>
+
+    <!-----------------MAIN CONTENT----------------->
+    <main>
+        <div class="container">
+            <section class="about">
+                <img src="images/hadamard_matrix_white_background.png" alt="matrix" class="about-image">
+                <h1 class="about-heading main-heading">About</h1>
+                <p class="about-paragraph">
+                    Our vision is to be a global force for good in
+                    Quantum Tech and support humanity's transition
+                    into the quantum era in an inclusive way, enabling
+                    everyone to contribute, grow and make a positive impact.
+                </p>
+                <p class="about-paragraph">
+                    Our mission is to accomplish this by providing a global
+                    community with local chapters, professional mentoring,
+                    career opportunities and quantum tech skills.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-----------------FOOTER----------------->
+    <footer class="footer">
+        <a class="footer-link" href="index.html">OneQuantum <span>Philippines</span></a>
+        <p class="footer-paragraph">Copyright &copy 2024</p>
+    </footer>
+    <script defer src="./js/qe-assign.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>OneQuantum Philippines</title>
+</head>
+
+<body class="body">
+    <!-----------------HEADER----------------->
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-link" href="index.html">
+                <img src="./images/logo.png" alt="logo" class="header-logo">
+                <p class="header-org">OneQuantum <span>Philippines</span></p>
+            </a>
+            <button type="button" class="header-burger js-open-menu js-close-menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <img src="./images/burger-menu.png" alt="menu" height="65" class="header-menu">
+            </button>
+            <input type="text" placeholder="Type keyword and enter" name="search" id="search">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-item-link nav-current" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="mobile-nav js-menu-container">
+            <ul class="nav-list mobile-nav-list">
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link nav-current mobile-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-item-link mobile-link" href="contact.html">Contact</a>
+                </li>
+                <input type="text" placeholder="Type keyword and enter" name="search" id="mobile-search">
+            </ul>
+        </nav>
+    </header>
+
+    <!-----------------MAIN CONTENT----------------->
+    <main>
+        <div class="container contact-container">
+            <section class="contact">
+                <h1 class="contact-heading main-heading">Contact</h1>
+                <form class="contact-form">
+                    <p class="form-paragraph">
+                        Please send your message to Quantum
+                        Computing Philippines. We will reply
+                        as soon as possible!
+                    </p>
+                    <div class="form-group">
+                        <input class="form-group-input" type="name" name="full-name" placeholder="Name* " required />
+                        <input class="form-group-input" type="email" name="email" placeholder="E-mail Address*" required />
+                    </div>
+                    <textarea class="form-group-input form-textarea" name="comment" placeholder="Message*" required></textarea>
+                    <button type="submit" class="form-button">Send</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-----------------FOOTER----------------->
+    <footer class="footer">
+        <a class="footer-link" href="index.html">OneQuantum <span>Philippines</span></a>
+        <p class="footer-paragraph">Copyright &copy 2024</p>
+    </footer>
+    <script defer src="./js/qe-assign.js"></script>
+</body>
+
+</html>
