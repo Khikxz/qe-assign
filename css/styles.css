@@ -66,10 +66,10 @@ header {
     align-items: center;
     gap: 15px;
     color: white;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 1.2;
-    @media (min-width: 992px){
-        font-size: 25px;
+    @media (min-width: 500px) and (max-width: 991px){
+        font-size: 32px;
     }
 }
 
@@ -84,13 +84,17 @@ header {
 }
 
 .header-logo {
-    height: 75px;
-    @media (min-width: 992px) {
-        height: 65px;
+    height: 65px;
+    @media (min-width: 500px) and (max-width: 991px) {
+        height: 75px;
     }
 }
 
 .header-menu {
+    height: 65px;
+    @media (min-width: 500px) and (max-width: 991px) {
+        height: 75px;
+    }
     @media (min-width: 992px) {
         display: none;
     }

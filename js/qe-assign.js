@@ -1,14 +1,6 @@
-// const gallery = document.querySelector('.hero-gallery');
+
 var acc = document.getElementsByClassName("accordion");
 var i;
-
-// // INDEX GALLERY
-// gallery.addEventListener('click', e => {
-//   e.preventDefault();
-//   let simpleGallery = new SimpleLightbox('.hero-gallery a');
-//   simpleGallery.on('show.simplelightbox', function () {
-//   });
-// });
 
 // MOBILE BURGER MENU
 (() => {
